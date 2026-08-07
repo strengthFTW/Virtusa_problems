@@ -21,5 +21,6 @@ public class Decimal_Point {
                 System.out.print(" ");
             }
         }
+        sc.close();
     }
 }
