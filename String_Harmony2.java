@@ -34,5 +34,6 @@ public class String_Harmony2 {
             ans = Math.max(ans, length);
         }
         System.out.println(ans);
+        sc.close();
     }
 }
