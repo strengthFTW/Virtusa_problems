@@ -27,7 +27,7 @@ public class String_Harmony2 {
                     index++;
                 }
                 if (!ok) {
-                    break;
+                    break;  
                 }
                 length = index - start;
             }
