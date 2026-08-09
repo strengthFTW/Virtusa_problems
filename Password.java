@@ -14,8 +14,8 @@ public class Password {
             fw.close();
 
             //Read the password from the file
-            Scanner read = new Scanner(new File("password.txt"));
-            String pass = read.nextLine();
+            Scanner sc = new Scanner(new File("password.txt"));
+            String pass = sc.nextLine();
             read.close();
 
             //Check the Strength of the password
