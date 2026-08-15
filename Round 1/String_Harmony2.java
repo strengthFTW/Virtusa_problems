@@ -1,6 +1,5 @@
 // for string if it harmony starts from any index like aaababc
 
-
 import java.util.Scanner;
 
 public class String_Harmony2 {
@@ -27,7 +26,7 @@ public class String_Harmony2 {
                     index++;
                 }
                 if (!ok) {
-                    break;  
+                    break;
                 }
                 length = index - start;
             }
